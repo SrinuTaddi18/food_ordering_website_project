@@ -1,0 +1,78 @@
+.admin-container {
+  padding: 2rem 0;
+  min-height: calc(100vh - 76px);
+}
+
+.admin-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #ffffff;
+}
+
+.admin-card .card-header {
+  background-color: #2a2a2a;
+  border-bottom: 1px solid #333;
+}
+
+.admin-food-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.description-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.admin-container .nav-tabs {
+  border-bottom: 1px solid #333;
+}
+
+.admin-container .nav-link {
+  color: #ffffff;
+  border: none;
+}
+
+.admin-container .nav-link.active {
+  background-color: transparent;
+  color: #ffc107;
+  border-bottom: 2px solid #ffc107;
+}
+
+.admin-container .form-control,
+.admin-container .form-select {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #ffffff;
+}
+
+.admin-container .form-control:focus,
+.admin-container .form-select:focus {
+  background-color: #2a2a2a;
+  border-color: #ffc107;
+  color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.modal-content {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+.modal-header {
+  border-bottom: 1px solid #333;
+}
+
+.modal-footer {
+  border-top: 1px solid #333;
+}
+
+.modal-header .btn-close {
+  filter: invert(1);
+}
+
