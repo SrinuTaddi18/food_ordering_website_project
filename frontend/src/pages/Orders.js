@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Card, Table, Badge, Spinner, Alert } from 'react-bootstrap';
 import axios from 'axios';
-import { useAuth } from '../context/AuthContext';
+//import { useAuth } from '../context/AuthContext';
 import './Orders.css';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
 const Orders = () => {
-  const { user } = useAuth();
+  //const { user } = useAuth();
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
