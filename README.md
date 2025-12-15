@@ -240,15 +240,9 @@ The application features a modern, minimalist design with:
 - Wishlist functionality
 - Food item categories and filters
 
-## License
+## Access the Application
 
-This project is open source and available under the MIT License.
+- **Frontend (User Interface):** [Food Ordering App](https://foodorderingwebsi.netlify.app)  
+- **Backend API:** http://localhost:5000
 
-## Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## Support
-
-For support, email your-email@example.com or create an issue in the repository.
 
