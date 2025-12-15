@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Card, Table, Button, Form, Modal, Badge, Alert, Spinner, Tabs, Tab } from 'react-bootstrap';
+import { Container, Card, Table, Button, Form, Modal, Badge, Alert, Spinner, Tabs, Tab } from 'react-bootstrap';
+//import { Container, Row, Col, Card, Table, Button, Form, Modal, Badge, Alert, Spinner, Tabs, Tab } from 'react-bootstrap';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import './Admin.css';
@@ -7,7 +8,7 @@ import './Admin.css';
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
 const Admin = () => {
-  const { user } = useAuth();
+ // const { user } = useAuth();
   const [foods, setFoods] = useState([]);
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
